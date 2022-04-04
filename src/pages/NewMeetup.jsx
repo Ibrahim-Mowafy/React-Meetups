@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import NewMeetupForm from "../components/meetups/NewMeetupForm";
+import Card from "../components/ui/Card";
 
 function NewMeetup() {
   return (
-    <div>NewMeetup</div>
-  )
+    <section>
+      <Card>
+        <NewMeetupForm />
+      </Card>
+    </section>
+  );
 }
 
-export default NewMeetup
+export default NewMeetup;
